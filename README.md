@@ -70,6 +70,8 @@ class simple_ae(nn.Module):
 #### Model 1 :
 
 ![Reconstruction1](../depot/ae_1_recon.png "Reconstruction Using Model 1")
+![Reconstruction1](../depot/ae_1_recon.png)*Reconstruction Using Model 1*
+
 
 ![Generation1](../depot/ae_1_gene.png "Generation Using Model 1")
 
