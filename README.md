@@ -38,7 +38,7 @@ class simple_ae(nn.Module):
  * Fully Connected Layers (784,128), (128,128), (128,16) and (16,4) with a ReLu activation fuction,
  * The Loss Function considered is a MSE,
  * The Encoder and the Decoder are symmetric.
- ```python
+```python
  class elab_ae(nn.Module):
     def __init__(self):
         super(elab_ae, self).__init__()
@@ -63,22 +63,25 @@ class simple_ae(nn.Module):
                 nn.ReLU(),
                 nn.Linear(128,784)
                 )
- ```
+```
 
 ### Results
 
 #### Model 1 :
 
+The reconstruction with the first model :
 ![ReconstructionONE](https://github.com/mbghouwa/AE-AutoEncoder_PyTorch/tree/master/images/ae_1_recon.png)
 
-
+The generation with the first model :
 ![GenerationONE](https://github.com/mbghouwa/AE-AutoEncoder_PyTorch/tree/master/images/ae_1_gene.png)
 
 #### Model 2 :
 
-![ReconstructionTWO](https://github.com/mbghouwa/AE-AutoEncoder_PyTorch/tree/master/images/ae_2_recon.png)
+The reconstruction with the second model :
+![Reconstruction](https://github.com/mbghouwa/AE-AutoEncoder_PyTorch/tree/master/images/ae_2_recon.png)
 
-![GenerationTWO](https://github.com/mbghouwa/AE-AutoEncoder_PyTorch/tree/master/images/ae_2_gene.png)
+The generation with the second model :
+![Generation](https://github.com/mbghouwa/AE-AutoEncoder_PyTorch/tree/master/images/ae_2_gene.png)
 
 ## AutoEncoder Implementation on MNIST
 
