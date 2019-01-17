@@ -69,16 +69,16 @@ class simple_ae(nn.Module):
 
 #### Model 1 :
 
-![Reconstruction1](https://github.com/mbghouwa/AE-AutoEncoder_PyTorch/tree/master/images/ae_1_recon.png "Reconstruction Using Model 1")
+![Reconstruction1](https://github.com/mbghouwa/AE-AutoEncoder_PyTorch/tree/master/images/ae_1_recon.png)
 
 
-![Generation1](https://github.com/mbghouwa/AE-AutoEncoder_PyTorch/tree/master/images/ae_1_gene.png "Generation Using Model 1")
+![Generation1](https://github.com/mbghouwa/AE-AutoEncoder_PyTorch/tree/master/images/ae_1_gene.png)
 
 #### Model 2 :
 
-![Reconstruction2](https://github.com/mbghouwa/AE-AutoEncoder_PyTorch/tree/master/images/ae_2_recon.png "Reconstruction Using Model 2")
+![Reconstruction2](https://github.com/mbghouwa/AE-AutoEncoder_PyTorch/tree/master/images/ae_2_recon.png)
 
-![Generation2](https://github.com/mbghouwa/AE-AutoEncoder_PyTorch/tree/master/images/ae_2_gene.png "Generation Using Model 2")
+![Generation2](https://github.com/mbghouwa/AE-AutoEncoder_PyTorch/tree/master/images/ae_2_gene.png)
 
 ## AutoEncoder Implementation on MNIST
 
