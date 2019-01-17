@@ -69,22 +69,21 @@ class simple_ae(nn.Module):
 
 #### Model 1 :
 
-![Reconstruction1](https://github.com/mbghouwa/AE-AutoEncoder_PyTorch/tree/master/images/ae_1_recon.png)
+![ReconstructionONE](https://github.com/mbghouwa/AE-AutoEncoder_PyTorch/tree/master/images/ae_1_recon.png)
 
 
-![Generation1](https://github.com/mbghouwa/AE-AutoEncoder_PyTorch/tree/master/images/ae_1_gene.png)
+![GenerationONE](https://github.com/mbghouwa/AE-AutoEncoder_PyTorch/tree/master/images/ae_1_gene.png)
 
 #### Model 2 :
 
-![Reconstruction2](https://github.com/mbghouwa/AE-AutoEncoder_PyTorch/tree/master/images/ae_2_recon.png)
+![ReconstructionTWO](https://github.com/mbghouwa/AE-AutoEncoder_PyTorch/tree/master/images/ae_2_recon.png)
 
-![Generation2](https://github.com/mbghouwa/AE-AutoEncoder_PyTorch/tree/master/images/ae_2_gene.png)
+![GenerationTWO](https://github.com/mbghouwa/AE-AutoEncoder_PyTorch/tree/master/images/ae_2_gene.png)
 
 ## AutoEncoder Implementation on MNIST
 
-We considered the following model :
-
 The encoder we considered is a three-layered Fully Conneted Network :
+
 * FC(784,400) and 2 FC (400,20) to define the mu and var
 * The loss function considered is a mix between the BCE and the KLD
 * The decoder isn't symmetric in this case and is a FC Network with one hidden layer, applied on the reparametrized mu and var.
