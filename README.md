@@ -70,10 +70,10 @@ class simple_ae(nn.Module):
 #### Model 1 :
 
 The reconstruction with the first model :
-![ReconstructionONE](https://github.com/mbghouwa/AE-AutoEncoder_PyTorch/tree/master/images/ae_1_recon.png)
+![Reconstruction](https://github.com/mbghouwa/AE-AutoEncoder_PyTorch/tree/master/images/ae_1_recon.png)
 
 The generation with the first model :
-![GenerationONE](https://github.com/mbghouwa/AE-AutoEncoder_PyTorch/tree/master/images/ae_1_gene.png)
+![Generation](https://github.com/mbghouwa/AE-AutoEncoder_PyTorch/tree/master/images/ae_1_gene.png)
 
 #### Model 2 :
 
